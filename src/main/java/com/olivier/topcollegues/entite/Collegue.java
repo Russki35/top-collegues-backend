@@ -27,6 +27,17 @@ public class Collegue {
 	
 	@Column(name = "score")
 	private int score;
+	
+	public Collegue() {
+		
+	}
+
+	public Collegue(String nom, String url, int score) {
+		super();		;
+		this.nom = nom;
+		this.url = url;
+		this.score = score;
+	}
 
 	public Integer getId() {
 		return id;

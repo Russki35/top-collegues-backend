@@ -26,7 +26,7 @@ import com.olivier.topcollegues.repository.CollegueRepository;
 
 @RestController
 @RequestMapping("/top-collegues")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class CollegueController {
 	
 	@Autowired private CollegueRepository collegueRepo;
