@@ -10,6 +10,9 @@ import org.springframework.stereotype.Component;
 
 import com.olivier.topcollegues.service.Init;
 
+
+
+@Component
 public class InitData {
 	
 @Autowired private Init init;

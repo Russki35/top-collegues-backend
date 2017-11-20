@@ -33,7 +33,7 @@ public class Collegue {
 	}
 
 	public Collegue(String nom, String url, int score) {
-		super();		;
+		super();		
 		this.nom = nom;
 		this.url = url;
 		this.score = score;

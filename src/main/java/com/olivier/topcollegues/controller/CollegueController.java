@@ -25,7 +25,7 @@ import com.olivier.topcollegues.entite.Collegue;
 import com.olivier.topcollegues.repository.CollegueRepository;
 
 @RestController
-@RequestMapping("/top-collegues")
+@RequestMapping("/collegues")
 @CrossOrigin(origins = "*")
 public class CollegueController {
 	
